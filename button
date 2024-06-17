@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<body>
+	<form method="POST" action="https://mckinnonsc-vic.compass.education/records/thirdpartypayment.aspx?randomkey=a22f9s1f8s2fff8fs9312">
+		<input type="hidden" name="CompassPay" value="" />
+		<button type="submit">Submit</button>
+	</form>
+	<script type="text/javascript">
+		window.addEventListener('DOMContentLoaded', function() {
+			document.forms[0].elements[0].value = window.location.hash.substr(1)
+			document.forms[0].submit()
+		})
+	</script>
+</body>
+</html>
